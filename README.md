@@ -46,31 +46,3 @@ swustthesis 说明
 | twoside | 双面打印（硕士、博士论文默认）|
 
 例如，编写硕士论文并要单面打印可以按如下方式加载`swustthesis`类。
-
-注意事项
---------
-
-1. 在引用图片时，最好采用英文命名，中文命名可能由于编码问题导致无法找
-   到文件。
-
-```
-\documentclass[oneside, master]{swustthesis}
-```
-
-展示
------
-
-本科论文封面如下图所示：
-
-![本科论文封面](figures/bachelor_titlepage.png)
-
-硕士/博士论文封面如下图所示：
-
-![硕士/博士论文封面](figures/master_doctor_titlepage.png)
-
-参考文献如下图所示：
-
-![参考文献](figures/reference_example.png)
-
-[TeX Live]: http://tug.org/texlive/
-[安装教程]: http://tug.org/texlive/quickinstall.html
