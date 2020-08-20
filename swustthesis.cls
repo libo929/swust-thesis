@@ -21,6 +21,7 @@
 \NeedsTeXFormat{LaTeX2e}[2005/12/01]
 \ProvidesClass{swustthesis}
     [2016/08/21 v0.0.2 SWUST Thesis Template]
+\RequirePackage{graphicx}
 \RequirePackage{kvoptions}
 \SetupKeyvalOptions{family=swust@opt,prefix=swust@opt@,setkeys=\kvsetkeys}
 \DeclareBoolOption[false]{bachelor}
@@ -60,7 +61,7 @@
 %% \setmainfont{Times New Roman}
 %% \setsansfont{Arial}
 %% \setmonofont{Courier New}
-%% \newCJKfontfamily{\hwxk}{STXingkai}
+\newCJKfontfamily{\hwxk}{Xingkai SC}
 \RequirePackage{hyperref}
 \hypersetup{
   CJKbookmarks=true,
