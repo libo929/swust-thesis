@@ -16,7 +16,7 @@ swustthesis 获取
 
 1. 克隆代码
    ```
-   git clone https://github.com/japinl/swust-thesis.git
+   git clone https://github.com/libo929/swust-thesis.git
    ```
 2. 点击`Clone or download`选择`Download ZIP`下载并解压。
 
